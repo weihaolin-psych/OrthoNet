@@ -1,0 +1,41 @@
+# Manuscript production and local documentation are outside this release.
+/manuscript/
+/docs/
+/checksums.sha256
+
+# Companion Zenodo data: merge into these paths after downloading.
+/data/embeddings/
+/data/logit_measures/position_metrics_by_seed.csv
+/data/analysis_inputs/sensitivity_onelayer_random10/wang_1400_entropy_with_covariates.csv
+/data/analysis_inputs/sensitivity_twolayers_random10/wang_1400_entropy_with_covariates.csv
+
+# Regenerable analysis results and fitted objects.
+/analysis/**/output/
+/analysis/**/output_standardized_measures/
+/analysis/**/heatmap/
+/analysis/error_analysis/classified_*.csv
+/analysis/**/*.rds
+/analysis/**/*.RDS
+/analysis/**/*.pdf
+/analysis/**/*.png
+
+# Trained states, evaluations and complete logits are not distributed.
+/models/**/weights/
+/models/**/checkpoint/
+/models/**/full_logit/
+*.pth
+*.npz
+
+# Local runtime installations and caches.
+/renv/library/
+/renv/staging/
+/renv/cache/
+.Rproj.user/
+.Rhistory
+.RData
+.vscode/
+.agents/
+.codex/
+__pycache__/
+*.pyc
+/tmp/

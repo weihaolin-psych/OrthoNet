@@ -1,0 +1,155 @@
+{
+  "completed_utc": "2026-09-27T09:07:38.542696+00:00",
+  "hidden_dim": 22,
+  "selected_epoch": 11,
+  "epochs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "seeds": [
+    7,
+    42,
+    88,
+    123,
+    200,
+    314,
+    456,
+    555,
+    789,
+    999
+  ],
+  "entropy_tolerance": 1e-10,
+  "sd_ddof": 1,
+  "sd_level": "items_after_seed_averaging",
+  "quantile_probabilities": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "quantile_method": "linear",
+  "item_unit": "Character-Word; average repeated positions within seed first",
+  "weighting": "equal items within seed, equal seeds; no frequency/trial weighting",
+  "entropy_unit": "nats",
+  "datasets": [
+    "Huang",
+    "Wang Small",
+    "Wang Full"
+  ],
+  "historical_mean_checks": {
+    "learning": "not available",
+    "datasets": "not available"
+  },
+  "expected_counts": {
+    "Huang": [
+      200,
+      200
+    ],
+    "Wang Small": [
+      200,
+      200
+    ],
+    "Wang Full": [
+      1600,
+      1592
+    ]
+  },
+  "summary_sha256": {
+    "learning_entropy_summary.csv": "9dc16759e161d26ae5c35dd39a5a79a99bb7bb8e80ba32562cb625a7370c65a6",
+    "selected_epoch_item_entropy.csv": "f5ecb4fb63b8bfdb831b9539686b97aad5c1d3c3fe15f6f6810871fc05505f7f",
+    "dataset_entropy_summary.csv": "5113f33e1f18565738c793c594119440083acc6ce79a45fd0b5d6d3b0b3a22a4",
+    "dataset_entropy_item_audit.csv": "3818bc7190ab48bf4ce6ed5750ca07fc632a192c08ad875811d2c35b22e74c06"
+  },
+  "python": "3.12.3",
+  "pandas": "2.3.3",
+  "numpy": "2.3.3",
+  "inputs": [
+    {
+      "path": "models\\twolayers_10-random-seeds\\checkpoint\\evaluation_CLD_twolayers_hidden22_seed7.csv",
+      "bytes": 232086961,
+      "modified_ns": 1780125693318737700
+    },
+    {
+      "path": "models\\twolayers_10-random-seeds\\checkpoint\\evaluation_CLD_twolayers_hidden22_seed42.csv",
+      "bytes": 232840250,
+      "modified_ns": 1779772319645836300
+    },
+    {
+      "path": "models\\twolayers_10-random-seeds\\checkpoint\\evaluation_CLD_twolayers_hidden22_seed88.csv",
+      "bytes": 232168561,
+      "modified_ns": 1780125494312293800
+    },
+    {
+      "path": "models\\twolayers_10-random-seeds\\checkpoint\\evaluation_CLD_twolayers_hidden22_seed123.csv",
+      "bytes": 231080735,
+      "modified_ns": 1779772353080409800
+    },
+    {
+      "path": "models\\twolayers_10-random-seeds\\checkpoint\\evaluation_CLD_twolayers_hidden22_seed200.csv",
+      "bytes": 232144081,
+      "modified_ns": 1780126023129061800
+    },
+    {
+      "path": "models\\twolayers_10-random-seeds\\checkpoint\\evaluation_CLD_twolayers_hidden22_seed314.csv",
+      "bytes": 231760440,
+      "modified_ns": 1780125906279864700
+    },
+    {
+      "path": "models\\twolayers_10-random-seeds\\checkpoint\\evaluation_CLD_twolayers_hidden22_seed456.csv",
+      "bytes": 233118934,
+      "modified_ns": 1779772286675319300
+    },
+    {
+      "path": "models\\twolayers_10-random-seeds\\checkpoint\\evaluation_CLD_twolayers_hidden22_seed555.csv",
+      "bytes": 232416569,
+      "modified_ns": 1780125792691069300
+    },
+    {
+      "path": "models\\twolayers_10-random-seeds\\checkpoint\\evaluation_CLD_twolayers_hidden22_seed789.csv",
+      "bytes": 232841151,
+      "modified_ns": 1780125592974329100
+    },
+    {
+      "path": "models\\twolayers_10-random-seeds\\checkpoint\\evaluation_CLD_twolayers_hidden22_seed999.csv",
+      "bytes": 233385313,
+      "modified_ns": 1780125391401538900
+    },
+    {
+      "path": "data\\processed\\huang_trials_with_entropy.csv",
+      "bytes": 1419568,
+      "modified_ns": 1780299681744394700
+    },
+    {
+      "path": "data\\processed\\wang_small_trials_with_entropy.csv",
+      "bytes": 595042,
+      "modified_ns": 1780299681827319000
+    },
+    {
+      "path": "data\\processed\\wang_full_trials_with_entropy.csv",
+      "bytes": 4765855,
+      "modified_ns": 1780299682230786900
+    }
+  ]
+}

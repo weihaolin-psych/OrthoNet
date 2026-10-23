@@ -1,0 +1,116 @@
+{
+  "run_id": "20261018T034651.320620Z",
+  "hidden_dim": 22,
+  "epoch": 11,
+  "seeds": [
+    7,
+    42,
+    88,
+    123,
+    200,
+    314,
+    456,
+    555,
+    789,
+    999
+  ],
+  "ddof": 1,
+  "input_sha256": {
+    "C:\\Users\\yoka2\\Desktop\\git\\tip_of_the_pen\\data\\logit_measures\\character_word_measures.csv": "49a14582afc8ea70ec379b5081e3a1c00daa9e8bcf4dcd84824e117b05e90205",
+    "C:\\Users\\yoka2\\Desktop\\git\\tip_of_the_pen\\data\\logit_measures\\position_metrics_by_seed.csv": "8b9c74ef4231337f15159383f723f4c8c7d8e9f236b0f9391405e593eec6ee25",
+    "C:\\Users\\yoka2\\Desktop\\git\\tip_of_the_pen\\data\\processed\\huang_trials_with_entropy.csv": "07e6b792156688ebfed126179b8384be6ce55ac97b3b7069fdcde0eb982da9a4",
+    "C:\\Users\\yoka2\\Desktop\\git\\tip_of_the_pen\\data\\processed\\wang_small_trials_with_entropy.csv": "f68f87c942fb250679b3dacfcb31aaf8c990755ce6ae4ba79a4620acb78bd4a2",
+    "C:\\Users\\yoka2\\Desktop\\git\\tip_of_the_pen\\data\\processed\\wang_full_trials_with_entropy.csv": "daf0e958f046b71dea0d46e45e29d58e524154e3026853c62953bbe3be28ca82"
+  },
+  "outputs": [
+    {
+      "run_id": "20261018T034651.320620Z",
+      "dataset": "huang",
+      "path": "C:\\Users\\yoka2\\Desktop\\git\\tip_of_the_pen\\data\\processed\\huang_trials_with_logit_measures.csv",
+      "md5": "334ea06f0f22093643b932b9f5bbf4ca",
+      "sha256": "85fae66975d8481ff633ac68d86eab242307e82343c2b8a7c9b11b26e071bde5"
+    },
+    {
+      "run_id": "20261018T034651.320620Z",
+      "dataset": "wang_small",
+      "path": "C:\\Users\\yoka2\\Desktop\\git\\tip_of_the_pen\\data\\processed\\wang_small_trials_with_logit_measures.csv",
+      "md5": "e4d319d09feefbccf6772c22045aa73a",
+      "sha256": "b6ce2a7dbbec9be77ad0ec809dc4d35a609015375519c78a7ec3c06a3e2e4ec1"
+    },
+    {
+      "run_id": "20261018T034651.320620Z",
+      "dataset": "wang_full",
+      "path": "C:\\Users\\yoka2\\Desktop\\git\\tip_of_the_pen\\data\\processed\\wang_full_trials_with_logit_measures.csv",
+      "md5": "b7aa261d8d946ad6db2edded388eff37",
+      "sha256": "989530fcc15e55e675176ed0d73e5d9c0e9f7bc064d445dafd88c6558ebc2152"
+    }
+  ],
+  "target_normalization": [
+    {
+      "seed": 7,
+      "n_positions": 106844,
+      "target_mean": -9.641048707123336,
+      "target_sd": 7.188128442736342
+    },
+    {
+      "seed": 42,
+      "n_positions": 106844,
+      "target_mean": -10.826204563907632,
+      "target_sd": 7.322106640998423
+    },
+    {
+      "seed": 88,
+      "n_positions": 106844,
+      "target_mean": -9.861885169413839,
+      "target_sd": 7.265385876965952
+    },
+    {
+      "seed": 123,
+      "n_positions": 106844,
+      "target_mean": -4.864913489287205,
+      "target_sd": 6.535239227557302
+    },
+    {
+      "seed": 200,
+      "n_positions": 106844,
+      "target_mean": -7.639193002822698,
+      "target_sd": 7.243843147106796
+    },
+    {
+      "seed": 314,
+      "n_positions": 106844,
+      "target_mean": -6.951860767208098,
+      "target_sd": 6.717513458866008
+    },
+    {
+      "seed": 456,
+      "n_positions": 106844,
+      "target_mean": -15.080819870613157,
+      "target_sd": 9.515611648184041
+    },
+    {
+      "seed": 555,
+      "n_positions": 106844,
+      "target_mean": -10.074849315420913,
+      "target_sd": 7.808325020700966
+    },
+    {
+      "seed": 789,
+      "n_positions": 106844,
+      "target_mean": -13.066763159403894,
+      "target_sd": 8.359696920760385
+    },
+    {
+      "seed": 999,
+      "n_positions": 106844,
+      "target_mean": -14.07894423939045,
+      "target_sd": 8.708506498008404
+    }
+  ],
+  "aggregation": "Seed-wise position z-score; within Character-Word positions; equal seed mean",
+  "formulas": {
+    "deficit_measure": "target - mean(non-target)",
+    "blocking_measure": "target - max(non-target)",
+    "target_logit_measure": "target"
+  }
+}
