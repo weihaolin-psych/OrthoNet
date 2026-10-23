@@ -125,7 +125,7 @@ The numbered extraction scripts in the parameter-selection and mixed-model sensi
 Code repository: [weihaolin-psych/OrthoNet](https://github.com/weihaolin-psych/OrthoNet).
 
 - **Code archive:** [10.5281/zenodo.23595964](https://doi.org/10.5281/zenodo.23595964).
-- **Companion data:** [Zenodo DOI to be added].
+- **Companion data:** [10.5281/zenodo.23524011](https://doi.org/10.5281/zenodo.23524011).
 
 The following five large files are supplied separately in the companion data deposit:
 
